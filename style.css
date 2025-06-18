@@ -66,7 +66,7 @@ p, h1, h2, h3, h4, h5, h6 {
 #pantaro-news {
   position: absolute;
   width: 20vw;
-  height; auto;
+  height: auto;
   bottom: 30px;
   left: 30px;
 }
@@ -74,7 +74,92 @@ p, h1, h2, h3, h4, h5, h6 {
 #pansyna-news {
   position: absolute;
   width: 20vw;
-  height; auto;
+  height: auto;
   bottom: 30px;
   right: 30px;
+}
+
+.story-text {
+  width: 50%;
+  margin: 0 25% 20px 25%;
+  text-align: center;
+}
+
+#churiko-story {
+  position: absolute;
+  width: 15vw;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+#pansyna-pantaro-story {
+  position: absolute;
+  width: 20vw;
+  height: auto;
+  top: 30px;
+  right: 30px;
+}
+
+#pansyna-pantaro-story-2 {
+  width: 20vw;
+  margin: 10px 40vw 10px 40vw;
+  height: auto;
+}
+
+#characters-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.character-name {
+  padding-top: 10px;
+}
+
+.character-description {
+  padding-top: 10px;
+}
+
+#profile-container {
+  width: 50vw;
+  margin: 30px 20vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#profile-title {
+  padding-left: 20vw;
+}
+
+#profile-icon {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+}
+
+#profile-text {
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+    #characters-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+
+    .story-text {
+        width: 30%;
+        margin: 0 35% 20px 35%;
+        text-align: center;
+    }
 }
