@@ -1,0 +1,80 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  font-family: "Zenkaku New Gothic", Helvetica, sans-serif; 
+}
+
+.section-container {
+  margin-top: 100px;
+  background-color: #fafe8e;
+  padding-bottom: 100px;
+}
+
+.heading-container {
+  width: 100vw;
+  margin: 100px 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  padding-top: 50px;
+}
+
+#info-container {
+  width: 80vw;
+  margin: 20px 10vw;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+}
+
+#map-image-container {
+  width: 80%;
+  margin: 20px 10%;
+  display: flex;
+  justify-content: center;
+}
+
+#pantaro-news {
+  position: absolute;
+  width: 20vw;
+  height; auto;
+  bottom: 30px;
+  left: 30px;
+}
+
+#pansyna-news {
+  position: absolute;
+  width: 20vw;
+  height; auto;
+  bottom: 30px;
+  right: 30px;
+}
