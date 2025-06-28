@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -6,7 +8,8 @@
   margin: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -15,18 +18,35 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
-  font-family: "Zenkaku New Gothic", Helvetica, sans-serif; 
+  font-family: "Zenkaku New Gothic", Helvetica, sans-serif;
+}
+
+#pansyna-hero {
+  width: 100vw;
 }
 
 .section-container {
@@ -132,7 +152,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #profile-container {
   width: 100vw;
-  /* margin: 30px 20vw; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,56 +175,56 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 768px) {
-    #characters-container {
-        grid-template-columns: 1fr 1fr;
-        gap: 5px;
-    }
+  .section-container {
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
 
-    .story-text {
-        width: 30%;
-        margin: 0 35% 20px 35%;
-        text-align: center;
-    }
+  .heading-container {
+    margin: 100px 0 50px;
+  }
 
-    #profile-title {
-        padding-top: 0px;
-    }
+  .story-text {
+    width: 30%;
+    margin: 0 35% 20px 35%;
+    text-align: center;
+  }
 
-    #profile-container {
-        flex-direction: row;
-    }
+  #churiko-story {
+    width: 15vw;
+  }
 
-    #profile-text {
-        max-width: 40vw;
-    }
+  #pansyna-pantaro-story {
+    width: 20vw;
+    top: 30px;
+    right: 30px;
+  }
 
-    #pansyna-pantaro-story-2 {
-        width: 20vw;
-        margin: 10px 40vw 10px 40vw;
-        height: auto;
-    }
+  #pansyna-pantaro-story-2 {
+    width: 20vw;
+    margin: 10px 40vw 10px 40vw;
+    height: auto;
+  }
 
-    .section-container {
-        margin-top: 100px;
-        padding-bottom: 100px;
-    }
+  #characters-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
 
-    .heading-container {
-        margin: 100px 0 50px;
-    }
+  #profile-title {
+    padding-top: 0px;
+  }
 
-    #profile-icon {
-        width: 300px;
-        height: auto;
-    }
+  #profile-container {
+    flex-direction: row;
+  }
 
-    #pansyna-pantaro-story {
-        width: 20vw;
-        top: 30px;
-        right: 30px;
-    }
+  #profile-icon {
+    width: 300px;
+    height: auto;
+  }
 
-    #churiko-story {
-        width: 15vw;
-    }
+  #profile-text {
+    max-width: 40vw;
+  }
 }
