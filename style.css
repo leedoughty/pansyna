@@ -68,12 +68,12 @@ h6 {
 }
 
 .section-title-english {
-  font-size: 1.9rem;
+  font-size: 1.4rem;
   font-weight: 400;
 }
 
 .section-title-japanese {
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   font-weight: 400;
 }
 
@@ -173,9 +173,16 @@ h6 {
 }
 
 .story-text {
-  width: 50%;
-  margin: 0 25% 20px 25%;
+  width: 70%;
+  margin: 20px auto;
   text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+.story-text p {
+  margin: 0;
 }
 
 #churiko-story {
@@ -196,8 +203,18 @@ h6 {
 
 #pansyna-pantaro-story-2 {
   width: 70vw;
-  margin: 10px 15vw 10px 15vw;
+  margin: 15px 15vw 5px 15vw;
   height: auto;
+}
+
+.section-container.character-section {
+  margin: 0;
+  padding: 0;
+}
+
+.heading-container.character-section {
+  margin: 0;
+  padding: 0;
 }
 
 #characters-container {
@@ -212,15 +229,29 @@ h6 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .character-name {
-  padding-top: 10px;
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 1.3rem;
 }
 
 .character-description {
   padding-top: 10px;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+#pansyna-characters {
+  padding-top: 60px;
+}
+
+#profile-title {
+  padding-top: 30px;
+  font-weight: 500;
+  text-align: center;
 }
 
 #profile-container {
@@ -229,11 +260,6 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-#profile-title {
-  padding-left: 20vw;
-  padding-top: 30px;
 }
 
 #profile-icon {
@@ -247,6 +273,10 @@ h6 {
   max-width: 80vw;
 }
 
+#profile-text-container {
+  margin-bottom: 80px;
+}
+
 @media (min-width: 768px) {
   .section-container {
     margin-top: 100px;
@@ -255,6 +285,14 @@ h6 {
 
   .heading-container {
     margin: 100px 0 50px;
+  }
+
+  .section-title-english {
+    font-size: 1.9rem;
+  }
+
+  .section-title-japanese {
+    font-size: 2.5rem;
   }
 
   #info-container {
@@ -270,17 +308,17 @@ h6 {
   }
 
   .story-text {
-    width: 30%;
-    margin: 0 35% 20px 35%;
+    width: 50%;
+    margin: 10px auto;
     text-align: center;
   }
 
   #churiko-story {
-    width: 15vw;
+    width: 12vw;
   }
 
   #pansyna-pantaro-story {
-    width: 20vw;
+    width: 12vw;
     top: 30px;
     right: 30px;
   }
@@ -293,11 +331,19 @@ h6 {
 
   #characters-container {
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .character {
+    padding: 30px 60px;
   }
 
   #profile-title {
-    padding-top: 0px;
+    padding-top: 100px;
+    padding-left: 30px;
+    text-align: left;
   }
 
   #profile-container {
@@ -309,7 +355,21 @@ h6 {
     height: auto;
   }
 
+  #profile-text-container {
+    padding-top: 100px;
+  }
+
+  #profile-text-title {
+    width: 40vw;
+    margin: 0 auto;
+    padding: 30px 60px;
+    font-size: 1rem;
+  }
+
   #profile-text {
-    max-width: 40vw;
+    width: 40vw;
+    margin: 0 auto;
+    padding: 30px 60px;
+    font-size: 1rem;
   }
 }
