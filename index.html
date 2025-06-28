@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Pansyna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -15,27 +21,46 @@
     />
     <section class="section-container">
       <div class="heading-container">
-        <h1>NEWS</h1>
-        <h1>お知らせ</h1>
+        <h1 class="section-title-english">NEWS</h1>
+        <h1 class="section-title-japanese">お知らせ</h1>
       </div>
       <div id="info-container">
-        <h2>デザインフェスタに出展します！</h2>
-        <p>
+        <h2 id="info-heading">デザインフェスタに出展します！</h2>
+        <p id="info-paragraph">
           パンジーナちゃんの絵本ができました。
           デザインフェスタで初めて絵本とグッズの販売をします。
           会場でお待ちしています！
         </p>
-        <p>デザインフェスタvol.61</p>
-        <p>日時　　2025年7月5日(土)・6日(日)</p>
-        <p>時間　　10:00〜18:00</p>
-        <p>会場　　東京ビッグサイト</p>
-        <p>ブース　西1ホール B-205</p>
-        <p>出展名　パンジーナちゃん</p>
-        <a href="https://designfesta.com/"
-          >デザインフェスタ公式サイトはこちら</a
-        >
-        <p>会場MAP</p>
+        <h3 id="info-subheading">デザインフェスタvol.61</h3>
+        <section id="design-festa-info">
+          <div id="design-festa-info-container">
+            <div class="info-row">
+              <span class="info-label">日時</span>
+              <span class="info-value">2025年7月5日(土)・6日(日)</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">時間</span>
+              <span class="info-value">10:00〜18:00</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">会場</span>
+              <span class="info-value">東京ビッグサイト</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">ブース</span>
+              <span class="info-value">西1ホール B-205</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">出展名</span>
+              <span class="info-value">パンジーナちゃん</span>
+            </div>
+          </div>
+        </section>
+        <a id="design-festa-link" href="https://designfesta.com/"
+          >デザインフェスタ公式サイトはこちら
+        </a>
         <div id="map-image-container">
+          <p id="map-tag">会場MAP</p>
           <a href="map.jpg" target="_blank">
             <img src="map.jpg" alt="Map of Design Festa stall 205" />
           </a>
@@ -46,8 +71,8 @@
     </section>
     <section class="section-container">
       <div class="heading-container">
-        <h1>STORY</h1>
-        <h1>パンジーナちゃんのおはなし</h1>
+        <h1 class="section-title-english">STORY</h1>
+        <h1 class="section-title-japanese">パンジーナちゃんのおはなし</h1>
       </div>
       <div id="info-container">
         <p class="story-text">
@@ -83,8 +108,8 @@
     </section>
     <section class="section-container">
       <div class="heading-container">
-        <h1>CHARACTER</h1>
-        <h1>キャラクター紹介</h1>
+        <h1 class="section-title-english">CHARACTER</h1>
+        <h1 class="section-title-japanese">キャラクター紹介</h1>
       </div>
       <section id="characters-container">
         <div class="character">

@@ -42,7 +42,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
-  font-family: "Zenkaku New Gothic", Helvetica, sans-serif;
+  font-family: "Zen Kaku Gothic New", Helvetica, sans-serif;
 }
 
 #pansyna-hero {
@@ -57,30 +57,103 @@ h6 {
 
 .heading-container {
   width: 100vw;
-  margin: 30px 0 20px;
+  margin: 50px 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100px;
-  padding-top: 50px;
+  height: 160px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.section-title-english {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.section-title-japanese {
+  font-size: 2.5rem;
+  font-weight: 400;
 }
 
 #info-container {
-  width: 80vw;
-  margin: 20px 10vw;
+  width: 90vw;
+  margin: 20px auto;
   height: auto;
   background-color: white;
   text-align: center;
   padding: 50px;
   position: relative;
+  border-radius: 25px;
+}
+
+#info-heading {
+  font-size: 2.5rem;
+  padding: 5px 0;
+  font-weight: 400;
+}
+
+#info-paragraph {
+  margin: 10px auto;
+  font-size: 1.2rem;
+  text-align: center;
+  white-space: pre-line;
+}
+
+#info-subheading {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#design-festa-info {
+  display: flex;
+  justify-content: center;
+}
+
+#design-festa-info-container {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#design-festa-info,
+.info-label,
+.info-value {
+  font-family: "Zenkaku New Gothic", Helvetica, sans-serif;
+}
+
+.info-row {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 20px;
+  margin-bottom: 5px;
+  align-items: baseline;
+}
+
+.info-label {
+  font-weight: 400;
+}
+
+.info-value {
+  font-weight: 400;
+}
+
+#design-festa-link {
+  margin-bottom: 20px;
+  font-family: "Zenkaku New Gothic", Helvetica, sans-serif;
 }
 
 #map-image-container {
-  width: 50%;
-  margin: 20px 25%;
+  width: 60%;
+  margin: 50px auto;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+
+#map-tag {
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 #pantaro-news {
@@ -182,6 +255,18 @@ h6 {
 
   .heading-container {
     margin: 100px 0 50px;
+  }
+
+  #info-container {
+    width: 70vw;
+  }
+
+  #info-paragraph {
+    width: 50%;
+  }
+
+  #map-image-container {
+    width: 40%;
   }
 
   .story-text {
