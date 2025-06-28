@@ -73,7 +73,7 @@ h6 {
 }
 
 .section-title-japanese {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 400;
 }
 
@@ -190,7 +190,7 @@ h6 {
   width: 25vw;
   height: auto;
   top: 0;
-  left: 0;
+  left: -40px;
 }
 
 #pansyna-pantaro-story {
@@ -198,7 +198,7 @@ h6 {
   width: 30vw;
   height: auto;
   bottom: 20px;
-  right: 10px;
+  right: -5px;
 }
 
 #pansyna-pantaro-story-2 {
@@ -236,6 +236,10 @@ h6 {
   padding-top: 15px;
   font-weight: 500;
   font-size: 1.3rem;
+}
+
+.character-icon {
+  width: 50%;
 }
 
 .character-description {
@@ -319,7 +323,7 @@ h6 {
 
   #pansyna-pantaro-story {
     width: 12vw;
-    top: 30px;
+    bottom: 30px;
     right: 30px;
   }
 
@@ -337,7 +341,11 @@ h6 {
   }
 
   .character {
-    padding: 30px 60px;
+    padding: 30px 18%;
+  }
+
+  .character-icon {
+    width: 90%;
   }
 
   #profile-title {
@@ -360,16 +368,16 @@ h6 {
   }
 
   #profile-text-title {
-    width: 40vw;
-    margin: 0 auto;
+    width: 42vw;
+    margin: 30px auto 0;
     padding: 30px 60px;
     font-size: 1rem;
   }
 
   #profile-text {
-    width: 40vw;
+    width: 42vw;
     margin: 0 auto;
-    padding: 30px 60px;
+    padding: 10px 60px;
     font-size: 1rem;
   }
 }
