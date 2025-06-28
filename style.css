@@ -88,6 +88,17 @@ h6 {
   border-radius: 25px;
 }
 
+#story-book-container {
+  width: 90vw;
+  margin: 20px auto;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+  border-radius: 25px;
+}
+
 #info-heading {
   font-size: 2.5rem;
   padding: 5px 0;
@@ -311,20 +322,37 @@ h6 {
     width: 40%;
   }
 
+  #story-book-container {
+    margin: 30px auto;
+    height: auto;
+    padding: 20px;
+    background: url("book.png") center/contain no-repeat;
+    background-color: transparent;
+    min-height: 650px;
+    border-radius: 0;
+    height: auto;
+    position: relative;
+  }
+
+  .story-text.story-first-paragraph {
+    padding-top: 60px;
+  }
+
   .story-text {
-    width: 50%;
-    margin: 10px auto;
+    width: 60%;
+    margin: 20px auto;
     text-align: center;
   }
 
   #churiko-story {
-    width: 12vw;
+    width: 15vw;
+    left: 10%;
   }
 
   #pansyna-pantaro-story {
-    width: 12vw;
-    bottom: 30px;
-    right: 30px;
+    width: 15vw;
+    bottom: 80px;
+    right: 10%;
   }
 
   #pansyna-pantaro-story-2 {
