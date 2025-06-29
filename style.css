@@ -49,6 +49,33 @@ h6 {
   width: 100vw;
 }
 
+.float-menu {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  z-index: 1000;
+}
+
+.float-icon {
+  width: 100px;
+  height: 100px;
+  padding: 12px;
+  transition: transform 0.2s;
+}
+
+.float-icon:hover {
+  transform: scale(1.1);
+}
+
+.float-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .section-container {
   margin-top: 10px;
   background-color: #fafe8e;
@@ -308,6 +335,18 @@ h6 {
 }
 
 @media (min-width: 768px) {
+  .float-menu {
+    left: 120px;
+    bottom: 40px;
+    transform: none;
+  }
+
+  .float-icon {
+    width: 130px;
+    height: 130px;
+    padding: 14px;
+  }
+
   .section-container {
     margin-top: 100px;
     padding-bottom: 100px;
