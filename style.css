@@ -76,6 +76,17 @@ h6 {
   object-fit: contain;
 }
 
+.icon-desktop {
+  display: none;
+}
+
+.icon-mobile {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .section-container {
   margin-top: 10px;
   background-color: #fafe8e;
@@ -334,6 +345,31 @@ h6 {
   margin-bottom: 80px;
 }
 
+#profile-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+#nanny-instagram-icon {
+  width: 30px;
+  height: auto;
+}
+
+footer {
+  background-color: #b65cff;
+  color: white;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 20vw;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .float-menu {
     left: 120px;
@@ -345,6 +381,14 @@ h6 {
     width: 130px;
     height: 130px;
     padding: 14px;
+  }
+
+  .icon-desktop {
+    display: block;
+  }
+
+  .icon-mobile {
+    display: none;
   }
 
   .section-container {
@@ -446,13 +490,12 @@ h6 {
   }
 
   #profile-text-container {
-    padding-top: 100px;
+    padding-top: 150px;
   }
 
   #profile-text-title {
-    width: 42vw;
-    margin: 30px auto 0;
-    padding: 30px 60px;
+    width: auto;
+    padding-left: 60px;
     font-size: 1rem;
   }
 
